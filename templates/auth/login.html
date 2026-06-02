@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}로그인{% endblock %}
+{% block content %}
+<div style="text-align: center; width: 300px; margin: 0 auto;">
+    <h2>🔐 주소록 로그인</h2>
+    <input type="text" id="username" placeholder="아이디(admin)" style="width: 100%;"><br>
+    <input type="password" id="password" placeholder="비밀번호(1234)" style="width: 100%;"><br><br>
+    <button onclick="login()" style="width: 100%; background-color: #007BFF;">로그인</button>
+</div>
+
+<!-- 기능 분리된 전용 스크립트 로드 -->
+<script src="/templates/auth/auth.js"></script>
+{% endblock %}
