@@ -22,4 +22,4 @@ jobs:
             git reset --hard origin/main
             #sudo systemctl restart flask_app
             cd /home/ubuntu/flaskapp
-            docker-compose up -d --no-deps was-host
+            docker-compose up -d --no-deps was-host3
