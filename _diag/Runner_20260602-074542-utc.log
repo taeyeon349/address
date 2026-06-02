@@ -1,0 +1,215 @@
+[2026-06-02 07:45:42Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/flaskapp/address/.credentials'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/flaskapp/address/.runner'
+[2026-06-02 07:45:42Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2026-06-02 07:45:42Z INFO Listener] RuntimeInformation: Ubuntu 24.04.4 LTS.
+[2026-06-02 07:45:42Z INFO Listener] Version: 2.334.0
+[2026-06-02 07:45:42Z INFO Listener] Commit: f1995ede5d885c997d13d8eca5467c4ce97fe69c
+[2026-06-02 07:45:42Z INFO Listener] Culture: 
+[2026-06-02 07:45:42Z INFO Listener] UI Culture: 
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO Listener] Validating directory permissions for: '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO CommandLineParser] Parse
+[2026-06-02 07:45:42Z INFO CommandLineParser] Parsing 5 args
+[2026-06-02 07:45:42Z INFO CommandLineParser] parsing argument
+[2026-06-02 07:45:42Z INFO CommandLineParser] HasArgs: False
+[2026-06-02 07:45:42Z INFO CommandLineParser] Adding Command: configure
+[2026-06-02 07:45:42Z INFO CommandLineParser] parsing argument
+[2026-06-02 07:45:42Z INFO CommandLineParser] HasArgs: True
+[2026-06-02 07:45:42Z INFO CommandLineParser] arg: url
+[2026-06-02 07:45:42Z INFO CommandLineParser] parsing argument
+[2026-06-02 07:45:42Z INFO CommandLineParser] HasArgs: True
+[2026-06-02 07:45:42Z INFO CommandLineParser] Adding option 'url': 'https://github.com/taeyeon349/address'
+[2026-06-02 07:45:42Z INFO CommandLineParser] parsing argument
+[2026-06-02 07:45:42Z INFO CommandLineParser] HasArgs: True
+[2026-06-02 07:45:42Z INFO CommandLineParser] arg: token
+[2026-06-02 07:45:42Z INFO CommandLineParser] parsing argument
+[2026-06-02 07:45:42Z INFO CommandLineParser] HasArgs: True
+[2026-06-02 07:45:42Z INFO CommandLineParser] Adding option 'token': '***'
+[2026-06-02 07:45:42Z INFO Listener] Arguments parsed
+[2026-06-02 07:45:42Z INFO Runner] ExecuteCommand
+[2026-06-02 07:45:42Z INFO ConfigurationStore] currentAssemblyLocation: /home/ubuntu/flaskapp/address/bin/Runner.Listener.dll
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] binPath: /home/ubuntu/flaskapp/address/bin
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] RootFolder: /home/ubuntu/flaskapp/address
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/flaskapp/address/.runner'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] ConfigFilePath: /home/ubuntu/flaskapp/address/.runner
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'MigratedRunner': '/home/ubuntu/flaskapp/address/.runner_migrated'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] MigratedConfigFilePath: /home/ubuntu/flaskapp/address/.runner_migrated
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/flaskapp/address/.credentials'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] CredFilePath: /home/ubuntu/flaskapp/address/.credentials
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/ubuntu/flaskapp/address/.credentials_migrated'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] MigratedCredFilePath: /home/ubuntu/flaskapp/address/.credentials_migrated
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:42Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:42Z INFO HostContext] Well known config file 'Service': '/home/ubuntu/flaskapp/address/.service'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ubuntu/flaskapp/address/.service
+[2026-06-02 07:45:42Z INFO CommandSettings] Flag 'help': 'False'
+[2026-06-02 07:45:42Z INFO CommandSettings] Flag 'version': 'False'
+[2026-06-02 07:45:42Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-06-02 07:45:42Z INFO CommandSettings] Flag 'check': 'False'
+[2026-06-02 07:45:42Z INFO CommandSettings] Command 'configure': 'True'
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |                                                                              |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE: |                       
+[2026-06-02 07:45:42Z INFO Terminal] WRITE: Self-hosted runner registration
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE:                         |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: |                                                                              |
+[2026-06-02 07:45:42Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2026-06-02 07:45:42Z INFO ConfigurationManager] ConfigureAsync
+[2026-06-02 07:45:42Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2026-06-02 07:45:42Z INFO ConfigurationStore] IsConfigured()
+[2026-06-02 07:45:42Z INFO ConfigurationStore] IsConfigured: False
+[2026-06-02 07:45:42Z INFO ConfigurationManager] Is configured: False
+[2026-06-02 07:45:42Z INFO CommandSettings] Arg 'url': 'https://github.com/taeyeon349/address'
+[2026-06-02 07:45:42Z INFO CommandSettings] Remove url from Arg dictionary.
+[2026-06-02 07:45:42Z INFO CommandSettings] Arg 'token': '***'
+[2026-06-02 07:45:42Z INFO CommandSettings] Remove token from Arg dictionary.
+[2026-06-02 07:45:43Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (22B4:37A143:318B16D:3A0C675:6A1E8A26)
+[2026-06-02 07:45:43Z INFO ConfigurationManager] Using runner-admin flow: False
+[2026-06-02 07:45:43Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2026-06-02 07:45:43Z INFO RunnerServer] EstablishVssConnection
+[2026-06-02 07:45:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-06-02 07:45:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-02 07:45:43Z INFO RunnerServer] EstablishVssConnection
+[2026-06-02 07:45:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-06-02 07:45:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-02 07:45:43Z INFO RunnerServer] EstablishVssConnection
+[2026-06-02 07:45:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-06-02 07:45:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-02 07:45:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-02 07:45:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-02 07:45:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-02 07:45:45Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:45Z INFO ConfigurationManager] Test Connection complete.
+[2026-06-02 07:45:45Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:45Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:45Z INFO HostContext] Well known config file 'RSACredentials': '/home/ubuntu/flaskapp/address/.credentials_rsaparams'
+[2026-06-02 07:45:45Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2026-06-02 07:45:45Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/ubuntu/flaskapp/address/.credentials_rsaparams
+[2026-06-02 07:45:45Z INFO RSAFileKeyManager] Which2: 'chmod'
+[2026-06-02 07:45:45Z INFO RSAFileKeyManager] Location: '/usr/bin/chmod'
+[2026-06-02 07:45:45Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:45Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] Starting process:
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/ubuntu/flaskapp/address/.credentials_rsaparams'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 26291.
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/26291/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.File.OpenHandle(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.WriteToFile(String path, FileMode mode, String contents, Encoding encoding)
+   at GitHub.Runner.Sdk.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] Process started with process id 26291, waiting for process exit.
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-06-02 07:45:45Z INFO ProcessInvokerWrapper] Finished process 26291 with exit code 0, and elapsed time 00:00:00.0147667.
+[2026-06-02 07:45:45Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/ubuntu/flaskapp/address/.credentials_rsaparams
+[2026-06-02 07:45:46Z INFO CommandSettings] Arg 'runnergroup': ''
+[2026-06-02 07:45:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-06-02 07:45:46Z INFO PromptManager] ReadValue
+[2026-06-02 07:45:46Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2026-06-02 07:45:46Z INFO Terminal] WRITE: [press Enter for Default] 
+[2026-06-02 07:45:46Z INFO Terminal] READ LINE
+[2026-06-02 07:45:47Z INFO Terminal] Read value: ''
+[2026-06-02 07:45:47Z INFO PromptManager] Falling back to the default: 'Default'
+[2026-06-02 07:45:47Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:47Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2026-06-02 07:45:47Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-06-02 07:45:47Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2026-06-02 07:45:47Z INFO CommandSettings] Arg 'name': ''
+[2026-06-02 07:45:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-06-02 07:45:47Z INFO PromptManager] ReadValue
+[2026-06-02 07:45:47Z INFO Terminal] WRITE: Enter the name of runner: 
+[2026-06-02 07:45:47Z INFO Terminal] WRITE: [press Enter for Win11-01] 
+[2026-06-02 07:45:47Z INFO Terminal] READ LINE
+[2026-06-02 07:45:48Z INFO Terminal] Read value: ''
+[2026-06-02 07:45:48Z INFO PromptManager] Falling back to the default: 'Win11-01'
+[2026-06-02 07:45:48Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:48Z INFO CommandSettings] Arg 'labels': ''
+[2026-06-02 07:45:48Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-06-02 07:45:48Z INFO PromptManager] ReadValue
+[2026-06-02 07:45:48Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2026-06-02 07:45:48Z INFO Terminal] WRITE: [press Enter to skip] 
+[2026-06-02 07:45:48Z INFO Terminal] READ LINE
+[2026-06-02 07:45:49Z INFO Terminal] Read value: ''
+[2026-06-02 07:45:49Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:49Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-06-02 07:45:49Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2026-06-02 07:45:49Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2026-06-02 07:45:49Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2026-06-02 07:45:49Z INFO ConfigurationStore] Saving OAuth credential @ /home/ubuntu/flaskapp/address/.credentials
+[2026-06-02 07:45:49Z INFO ConfigurationStore] Credentials Saved.
+[2026-06-02 07:45:49Z INFO ConfigurationManager] Service enforced serverUrlV2: https://broker.actions.githubusercontent.com/
+[2026-06-02 07:45:49Z INFO ConfigurationManager] Service enforced useV2Flow: True
+[2026-06-02 07:45:49Z INFO CommandSettings] Arg 'work': ''
+[2026-06-02 07:45:49Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-06-02 07:45:49Z INFO PromptManager] ReadValue
+[2026-06-02 07:45:49Z INFO Terminal] WRITE: Enter name of work folder: 
+[2026-06-02 07:45:49Z INFO Terminal] WRITE: [press Enter for _work] 
+[2026-06-02 07:45:49Z INFO Terminal] READ LINE
+[2026-06-02 07:45:51Z INFO Terminal] Read value: ''
+[2026-06-02 07:45:51Z INFO PromptManager] Falling back to the default: '_work'
+[2026-06-02 07:45:51Z INFO ConfigurationStore] Saving runner settings.
+[2026-06-02 07:45:51Z INFO ConfigurationStore] Settings Saved.
+[2026-06-02 07:45:51Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:51Z INFO Terminal] WRITE LINE: 
+[2026-06-02 07:45:51Z INFO SystemDControlManager] Service name 'actions.runner.taeyeon349-address.Win11-01.service' display name 'GitHub Actions Runner (taeyeon349-address.Win11-01)' will be used for service configuration.
+[2026-06-02 07:45:51Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:51Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:51Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:51Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/flaskapp/address/bin'
+[2026-06-02 07:45:51Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:51Z INFO UnixUtil] Which2: 'chmod'
+[2026-06-02 07:45:51Z INFO UnixUtil] Location: '/usr/bin/chmod'
+[2026-06-02 07:45:51Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/ubuntu/flaskapp/address/svc.sh"
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] Starting process:
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/ubuntu/flaskapp/address/svc.sh"'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/flaskapp/address'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 26295.
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] Process started with process id 26295, waiting for process exit.
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-06-02 07:45:51Z INFO ProcessInvokerWrapper] Finished process 26295 with exit code 0, and elapsed time 00:00:00.0011189.
+[2026-06-02 07:45:51Z INFO Listener] Runner execution has finished with return code 0

@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy to Server (Self-hosted Runner)
 
 on:
   push:
@@ -7,19 +7,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-   
+    runs-on: self-hosted
+ 
     steps:
-      - name: Deploy to server
-        uses: appleboy/ssh-action@v1.0.0
-        with:
-          host: ${{ secrets.SERVER_HOST }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd /home/ubuntu/flaskapp/address
-            git fetch origin main
-            git reset --hard origin/main
-            #sudo systemctl restart flask_app
-            cd /home/ubuntu/flaskapp
-            docker-compose up -d --no-deps was-host3
+      - name: Execute Deploy Script
+        run: |
+          # 💡 내 WSL 실제 경로로 정확히 이동
+          cd ~/flaskapp/address
+          git fetch origin main
+          git reset --hard origin/main
+          cd ~/flaskapp            
+          
+          # 💡 내 docker-compose.yml에 적힌 정확한 서비스명 'was-host3'로 재시작!
+          docker-compose restart was-host3
