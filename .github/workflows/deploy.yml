@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/flaskapp/adress
+            cd /home/ubuntu/flaskapp/address
             git fetch origin main
             git reset --hard origin/main
             #sudo systemctl restart flask_app
