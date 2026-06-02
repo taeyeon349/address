@@ -34,3 +34,4 @@ pip-log.txt
 pip-delete-this-directory.txt
 .venv
 database.db
+_diag/
