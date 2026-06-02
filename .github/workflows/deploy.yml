@@ -12,13 +12,18 @@ jobs:
     steps:
       - name: Execute Deploy Script
         run: |
+          # 1. 내 WSL 프로젝트 주소로 정확히 이동
           cd ~/flaskapp/address
+          
+          # 2. 깃허브 원격 main 브랜치의 최신 코드를 땡겨와 로컬 장부 강제 동기화
           git fetch origin main
           git reset --hard origin/main
+          
+          # 3. 도커 컴포즈 도면이 있는 부모 폴더로 이동
           cd ~/flaskapp            
           
-          # 💡 [치트키 추가] 새 네트워크 옵션을 깨끗하게 반영하기 위해, 기존 네트워크와 찌꺼기 컨테이너를 확실하게 청소!
+          # 4. [트러블슈팅 핵심] 가상 네트워크 충돌 및 찌꺼기 컨테이너 확실하게 청소
           docker-compose down --remove-orphans
           
-          # 이제 완전히 깨끗해진 판 위에 'was-host3'를 무결하게 빌드 후 구동합니다.
-          docker-compose up -d --build was-host3
+          # 5. [최종 교정] Nginx, MariaDB, Flask 전체 서비스를 백그라운드로 빌드 및 가동!
+          docker-compose up -d --build

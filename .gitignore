@@ -1,4 +1,6 @@
-# 러너 가동 프로그램 관련 파일들 통째로 추적 제외
+# ==========================================
+# GitHub Self-hosted Runner 격리 목록
+# ==========================================
 actions-runner-linux-x64-2.334.0.tar.gz
 _work/
 bin/
@@ -17,4 +19,18 @@ run.sh
 runsvc.sh
 safe_sleep.sh
 svc.sh
+
+# ==========================================
+# 기존 프로젝트/파이썬 개발 환경 제외 목록
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
 database.db
