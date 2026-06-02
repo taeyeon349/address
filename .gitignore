@@ -1,4 +1,20 @@
+# 러너 가동 프로그램 관련 파일들 통째로 추적 제외
 actions-runner-linux-x64-2.334.0.tar.gz
 _work/
 bin/
 externals/
+.credentials
+.credentials_rsaparams
+.env
+.path
+.runner
+.service
+config.sh
+env.sh
+run-helper.cmd.template
+run-helper.sh.template
+run.sh
+runsvc.sh
+safe_sleep.sh
+svc.sh
+database.db
